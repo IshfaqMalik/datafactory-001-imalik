@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-001-imalik"
+		},
+		"Ishfaq0602DataLake_accountKey": {
+			"value": ""
+		},
+		"ishfaq0602Storerage_accountKey": {
+			"value": ""
+		},
+		"datalake0602_accountKey": {
+			"value": ""
+		},
+		"dataworkspace_connectionString": {
+			"value": ""
+		},
+		"Ishfaq0602DataLake_properties_typeProperties_url": {
+			"value": "https://ishfaq0602.dfs.core.windows.net/"
+		},
+		"ishfaq0602Storerage_properties_typeProperties_url": {
+			"value": "https://ishfaq0602.dfs.core.windows.net/"
+		},
+		"datalake0602_properties_typeProperties_url": {
+			"value": "https://datalake060211.dfs.core.windows.net/"
+		}
+	}
+}
